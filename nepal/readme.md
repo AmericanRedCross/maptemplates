@@ -1,19 +1,19 @@
-Nepal Schools MapBox and Tilemill
-=================================
+Nepal Schools - MapBox and Tilemill
+===================================
 
 [Computer Resources](#computer-resources)  
 [Evacuation Map Displayed?](#evacuation-map-displayed)  
-[Health Services and First-Aid]()  
-[Infrastructure Issues]()  
-[Non-Core Schools in Area]()  
-[Reported Hazards]()  
-[Students per Teacher]()  
-[Type]()  
+[Health Services and First-Aid](#health-services-and-first-aid)  
+[Infrastructure Issues](#infrastructure-issues)  
+[Non-Core Schools in Area](#non-core-schools-in-area)  
+[Reported Hazards](#reported-hazards)  
+[Students per Teacher](#students-per-teacher)  
+[Type](#type)  
 
 Computer Resources
 ------------------
 ######updated Sep 19, 2013######
-###CSS###
+###CSS: Computer Resources###
 ```
 #school {  
   marker-fill:#e6e6e6;
@@ -29,7 +29,7 @@ Computer Resources
   }
 }
 ```
-###Legend###
+###Legend: Computer Resources###
 ```
 <div class="legend-title">
 Computer Resources
@@ -81,7 +81,7 @@ Computer Resources
 }
 </style>
 ```
-###Teaser###
+###Teaser: Computer Resources###
 ```
 <div class="schoolname">{{{Name_of_Core_School}}}</div>
 <div class="tooltip-item">
@@ -123,7 +123,8 @@ img {
 Evacuation Map Displayed?
 -------------------------
 ######updated Sep 25, 2013######
-###CSS###
+######[Back to List of Maps](#nepal-schools-mapbox-and-tilemill)######
+###CSS: Evacuation Map Displayed?###
 ```
 #school {  
   marker-fill:#ff7b00;
@@ -142,7 +143,7 @@ Evacuation Map Displayed?
   }   
 }
 ```
-###Legend###
+###Legend: Evacuation Map Displayed?###
 ```
 <div class="legend-title">
 Evacuation Map Displayed in School?
@@ -167,7 +168,7 @@ Blue map marker indicates that the school has an evacuation map displayed.
 }
 </style>
 ```
-###Teaser###
+###Teaser: Evacuation Map Displayed?###
 ```
 <div class="schoolname">{{{Name_of_Core_School}}} ({{{District}}} District)</div>
 Evacuation map displayed? {{{Evacuation_Map_Displayed}}}<br>
@@ -263,7 +264,7 @@ img {
 Health Services and First-Aid?
 ------------------------------
 ######updated Sep 23, 2013######
-###CSS###
+###CSS: Health Services and First-Aid?###
 ```
 #school {  
   marker-file: url(icons/map-marker-6.svg); 
@@ -279,7 +280,7 @@ Health Services and First-Aid?
   }
 }
 ```
-###Legend###
+###Legend: Health Services and First-Aid?###
 ```
 <div class="legend-title">
 Health Services at Schools
@@ -325,7 +326,7 @@ Health Services at Schools
 }
 </style>
 ```
-###Teaser###
+###Teaser: Health Services and First-Aid?###
 ```
 <div class="schoolname">{{{Name_of_Core_School}}}</div><br>
 <div class="tooltip-item">
@@ -377,7 +378,7 @@ img {
 Infrastructure Issues
 ---------------------
 ######updated Sep 25, 2013######
-###CSS###
+###CSS: Infrastructure Issues###
 ```
 #school {  
   marker-width: 20;
@@ -395,7 +396,7 @@ Infrastructure Issues
   }  
 }
 ```
-###Legend###
+###Legend: Infrastructure Issues###
 ```
 <div class="legend-title">
 Infrastructure Issues at Schools
@@ -435,7 +436,7 @@ img {
 }
 </style>
 ```
-###Teaser###
+###Teaser: Infrastructure Issues###
 ```
 <div class="schoolname">{{{Name_of_Core_School}}}</div>
 Infrastructure Issues: <b>{{{Infrastructure_Issues}}}</b><br>
@@ -459,7 +460,7 @@ Infrastructure Issues: <b>{{{Infrastructure_Issues}}}</b><br>
 Non-Core Schools in Area
 ------------------------
 ######updated Sep 18, 2013######
-###CSS###
+###CSS: Non-Core Schools in Area###
 ```
 #school {  
   marker-fill:#ECE7F2;
@@ -490,7 +491,7 @@ Non-Core Schools in Area
   }    
 }
 ```
-###Legend###
+###Legend: Non-Core Schools in Area###
 ```
 <div class="legend-title">
 Number of Non-Core Schools in Area
@@ -540,7 +541,7 @@ Number of Non-Core Schools in Area
 }
 </style>
 ```
-###Teaser###
+###Teaser: Non-Core Schools in Area###
 ```
 <div class="wrap">
 <strong>{{{Name_of_Core_School}}}</strong> in <strong>{{{District}}}</strong> district has <strong>{{{Number_of_NonCore_Schools_in_Area}}}</strong> non-core schools in the area. 
@@ -556,7 +557,7 @@ Number of Non-Core Schools in Area
 Reported Hazards
 ----------------
 ######updated Sep 20, 2013######
-###CSS###
+###CSS: Reported Hazards###
 ```
 #school {  
   marker-fill:#f45;
@@ -578,7 +579,7 @@ Reported Hazards
   }
 }
 ```
-###Legend###
+###Legend: Reported Hazards###
 ```
 <div class="legend-title">
 Number of Reported Hazards
@@ -640,7 +641,7 @@ Number of Reported Hazards
 }
 </style>
 ```
-###Teaser###
+###Teaser: Reported Hazards###
 ```
 <wrap>
 <div class="schoolname">{{{Name_of_Core_School}}}</div>
@@ -736,7 +737,7 @@ img {
 Students per Teacher
 --------------------
 ######updated Sep 19, 2013######
-###CSS###
+###CSS: Students per Teacher###
 ```
 #school {
   [Students_per_Teacher >= 0] {marker-fill: #ffe0a4; marker-width:9;}
@@ -759,7 +760,7 @@ Students per Teacher
   marker-allow-overlap:true;
 }
 ```
-###Legend###
+###Legend: Students per Teacher###
 ```
 <div class="legend-title">
 Students per Teacher
@@ -811,7 +812,7 @@ Students per Teacher
 }
 </style>
 ```
-###Teaser###
+###Teaser: Students per Teacher###
 ```
 <div class="schoolname">{{{Name_of_Core_School}}}</div>
 <div class="tooltip-item">
@@ -853,7 +854,7 @@ img {
 Type
 ----
 ######updated Sep 23, 2013######
-###CSS###
+###CSS: Type###
 ```
 #school {  
   marker-file: url(icons/map-marker-6.svg); 
@@ -870,7 +871,7 @@ Type
   }
 }
 ```
-###Legend###
+###Legend: Type###
 ```
 <div class="legend-title">
 School Type
@@ -921,7 +922,7 @@ School Type
 }
 </style>
 ```
-###Teaser###
+###Teaser: Type###
 ```
 <div class="wrap">
 <strong>{{{Name_of_Core_School}}}</strong> in <strong>{{{District}}}</strong> district is <strong>{{{Type}}}</strong>. 
