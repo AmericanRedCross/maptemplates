@@ -8,7 +8,8 @@ Nepal Schools - MapBox and Tilemill
 [Non-Core Schools in Area](#non-core-schools-in-area)  
 [Reported Hazards](#reported-hazards)  
 [Students per Teacher](#students-per-teacher)  
-[Type](#type)  
+[Type](#type)
+[LSAR/ CADRE Trained Individuals](#lsar-cadre-trained-individuals)  
 
 Computer Resources
 ------------------
@@ -930,6 +931,106 @@ School Type
 <style>
 .wrap{
     font-size: larger;
+}
+</style>
+```
+
+LSAR/ CADRE Trained Individuals
+-------------------------------
+######updated Sep 25, 2013 | [Back to List of Maps](#)######
+###CSS: *LSAR/ CADRE Trained Individuals*###
+```
+#school {  
+  marker-file: url(icons/map-marker-6.svg); 
+  marker-fill:#00ffa5;
+  marker-fill-opacity: 0.6;  
+  marker-line-color:black;
+  marker-width: 15;
+  marker-line-width: 2;
+  marker-allow-overlap:true;
+  [Total_LSAR_CADRE_Trained=0]{marker-fill:#c51020}  
+  [zoom >= 12] {
+    marker-width:30;    
+  }
+}
+```
+###Legend: *LSAR/ CADRE Trained Individuals*###
+```
+<div class="legend-title">
+LSAR/ CADRE Trained Individuals
+</div>
+<div class="items">
+    <span class='swatch_yes'></span>
+    <span class="label">Trained</span> <br>
+    <span class='swatch_no'></span>
+    <span class="label">None Trained</span><br>
+<div class="note"><em>(Mouseover for school name and number of trained individuals.)<em> <br><b>Note: No data counted as 0 trained.</b></div>
+</div>    
+
+<style type="text/css">
+.swatch_no, .swatch_yes {
+    height: 16px;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: table-cell;
+    vertical-align:middle;
+    text-align: center;
+    width: 16px;
+    display: inline-block;
+}
+.swatch_yes {
+    background:#00ffa5;
+}
+.swatch_no {
+    background: rgba(197, 16, 32, 0.7);
+}
+.legend-title{
+    text-align:center;
+    margin-bottom: 5px;    
+    font-weight:bold;
+    font-size:110%
+}
+.note {
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.wax-legend {
+  width: 400px !important;
+  font-size: larger;
+}
+</style>
+```
+###Teaser: *LSAR/ CADRE Trained Individuals*###
+```
+<div class="schoolname">{{{Name_of_Core_School}}}</div>
+<div class="districtname">{{{District}}} District</div>
+LSAR/ CADRE Trained Individuals:
+<div class="sublist">
+<ul>
+<li><strong>{{{LSAR_CADRE_Trained_Teacher_Sponsors}}}</strong> teacher sponsors</li>
+<li><strong>{{{LSAR_CADRE_Trained_Teachers}}}</strong> teachers</li> 
+<li><strong>{{{LSAR_CADRE_Trained_Students}}}</strong> students</li>
+<li><strong>{{{LSAR_CADRE_Trained_Community_Members}}}</strong> community members</li>
+</ul>
+</div>
+
+<style>
+.sublist{
+    text-indent: 15px;    
+}
+.districtname {
+    text-align:center;
+}
+.schoolname {
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+.map-tooltip {
+  width: 300px !important;
+  font-size: larger;
+  max-height: none !important;
+  max-width: none !important;
 }
 </style>
 ```
