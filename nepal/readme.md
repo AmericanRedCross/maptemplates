@@ -8,7 +8,7 @@ Nepal Schools - MapBox and Tilemill
 [Non-Core Schools in Area](#non-core-schools-in-area)  
 [Reported Hazards](#reported-hazards)  
 [Students per Teacher](#students-per-teacher)  
-[Type](#type)
+[Type](#type)  
 [LSAR/ CADRE Trained Individuals](#lsar-cadre-trained-individuals)  
 
 Computer Resources
