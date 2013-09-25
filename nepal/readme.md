@@ -12,7 +12,7 @@ Nepal Schools - MapBox and Tilemill
 
 Computer Resources
 ------------------
-######updated Sep 19, 2013######
+######updated Sep 19, 2013 | [Back to List of Maps](#)######
 ###CSS: *Computer Resources*###
 ```
 #school {  
