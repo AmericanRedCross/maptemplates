@@ -1,11 +1,14 @@
 Nepal Schools MapBox and Tilemill
 =================================
 
+[Computer Resources](#computer-resources)
+[Evacuation Map Displayed?](#evacuation-map-displayed)
+
 
 Computer Resources
 ------------------
 ###CSS###
-```css
+```
 #school {  
   marker-fill:#e6e6e6;
   marker-fill-opacity: 0.5;  
@@ -21,7 +24,7 @@ Computer Resources
 }
 ```
 ###Legend###
-```html
+```
 <div class="legend-title">
 Computer Resources
 </div>
@@ -73,7 +76,7 @@ Computer Resources
 </style>
 ```
 ###Teaser###
-```html
+```
 <div class="schoolname">{{{Name_of_Core_School}}}</div>
 <div class="tooltip-item">
 <img src="http://mw1.google.com/crisisresponse/icons/un-ocha/infrastructure_school_32px_icon_bluebox.png">
