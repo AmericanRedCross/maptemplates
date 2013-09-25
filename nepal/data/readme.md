@@ -1,4 +1,4 @@
 Nepal Schools Data
 ------------------
 
-*.csv file for use in TileMill/ MapBox maps
+Download this *.csv file for use in TileMill/ MapBox maps.
