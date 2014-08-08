@@ -1,0 +1,154 @@
+Legend Carto for Niru
+
+
+## Example 1 - Titling your legend
+
+<b> TITLE HERE </b>
+
+MAIN TEXT HERE
+
+## Example 2 -- Color in legend
+
+	<div class="countries">
+			<span class='swatch_respondents'></span>
+			<span class="label">Survey respondents</span>
+	</div>	
+	<style type="text/css">
+		.swatch_respondents {
+			background:#7F7F7F;
+			height: 16px;
+margin-right: 5px;
+display: table-cell;
+vertical-align:middle;
+text-align: center;
+			width: 16px;
+			display: inline-block;
+		}
+		.legend-title{
+			text-align:center;
+			margin-bottom: 5px;
+			font-family:"Cisalpin St LTD Regular";
+			font-weight:bold;
+			font-size:110%
+		}
+	</style>
+
+## Example 3 -- Symbol legend
+
+<div><img src="http://upload.wikimedia.org/wikipedia/commons/0/07/Redcross.png" width="15px">
+Philippine Red Cross Chapters
+<br />Updated November 19, 2013
+</div>
+
+
+
+## Example 4 -- Multi object legend
+
+  <div class='legend-title_complete'>Population by Barangay<br />Data: National Statistics Office 2010 Census</div>
+	<div class="damages">
+			<span class='swatch1_pop'></span>
+			<span class="label">0 - 1000 Persons</span><br />
+			<span class='swatch3_pop'></span>
+			<span class="label">1001 - 3499 Persons</span><br />
+			<span class='swatch4_pop'></span>
+			<span class="label">3500 - 4999 Persons</span><br />
+			<span class='swatch5_pop'></span>
+			<span class="label">5000 - 10000 Persons</span><br />
+			<span class='swatch6_pop'></span>
+			<span class="label">Greater than 10000 Persons</span><br />
+			<span class='swatch7_pop'></span>
+			<span class="label">Greater than 15,000 Persons</span><br />
+			<span class='swatch8_pop'></span>
+			<span class="label">Data Missing</span><br />
+			</ul>
+	</div>	
+	<style type="text/css">
+		.swatch1_pop {
+			background:#f1eccd;
+			height: 16px;
+			margin-right: 5px;
+			display: table-cell;
+			vertical-align:middle;
+			text-align: center;
+			width: 16px;
+			display: inline-block;
+}
+		.swatch2_pop {
+			background:#f6efa7;
+			height: 16px;
+			margin-right: 5px;
+			display: table-cell;
+			vertical-align:middle;
+			text-align: center;
+			width: 16px;
+			display: inline-block;
+}
+		.swatch3_pop {
+			background:#e2d791;
+			height: 16px;
+			margin-right: 5px;
+			display: table-cell;
+			vertical-align:middle;
+			text-align: center;
+			width: 16px;
+			display: inline-block;
+}
+		.swatch4_pop {
+			background:#e2b689;
+			height: 16px;
+			margin-right: 5px;
+			display: table-cell;
+			vertical-align:middle;
+			text-align: center;
+			width: 16px;
+			display: inline-block;
+		}
+		.swatch5_pop {
+			background:#d29c52;
+			height: 16px;
+			margin-right: 5px;
+			display: table-cell;
+			vertical-align:middle;
+			text-align: center;
+			width: 16px;
+			display: inline-block;
+}
+		.swatch6_pop {
+			background:#bb751a;
+			height: 16px;
+			margin-right: 5px;
+			display: table-cell;
+			vertical-align:middle;
+			text-align: center;
+			width: 16px;
+			display: inline-block;
+}
+		.swatch7_pop {
+			background:#875d18;
+			height: 16px;
+			margin-right: 5px;
+			display: table-cell;
+			vertical-align:middle;
+			text-align: center;
+			width: 16px;
+			display: inline-block;
+}
+		.swatch8_pop {
+			background:#d5d5d5;
+			height: 16px;
+			margin-right: 5px;
+			display: table-cell;
+			vertical-align:middle;
+			text-align: center;
+			width: 16px;
+			display: inline-block;
+		}	
+	
+		.legend-title_complete{
+			text-align:center;
+			margin-bottom: 5px;
+			font-family:"Cisalpin St LTD Regular";
+			font-weight:bold;
+			font-size:110%
+		}
+	</style>
